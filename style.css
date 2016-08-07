@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+	height: 100%;
+}
+body { 
+	margin: 30px;
+	padding: 30px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	background: white;
+	border-bottom: 1px solid #eee;
+	width: 100%;
+	left: 0;
+	padding-left: 20px;
+}
+
+.home header {
+	position: static;
+	background:transparent;
+	border-bottom: none;
+	text-align: center;
+	padding-top: 100px;
+}
+.home header h1 {
+	font-size: 60px;
+}
+.home header h2 {
+	font-size: 30px;
+}
+.home {
+	background: url(../images/background-6.jpg) no-repeat;
+	background-size: cover;
+	background-position: 50%;
+
+}
+h1, h2 {
+	font-weight:  300;
+	text-transform: uppercase;
+}
+
+h1 { 
+	 font-family: 'Nixie One', serif;
+	 color: #ff4d4d;
+	 margin-bottom: 0;
+	 padding-bottom: 0; 
+}
+
+h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+a {
+	color: #ff4d4d;
+	text-decoration: none;
+}
+
+section h2 {
+	margin-top: 30px;
+
+} 
+nav {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+
+}
+.home nav li {
+	display: block;
+}
+
+.home nav {
+	text-align: right;
+	font-size: 25px;
+}
+.fa-bars {
+	padding: 15px;
+	font-size: 20px;
+	color: #333;
+}
+
+.home nav ul {
+	display: none;
+}
+.home nav:hover ul {
+	display: block;
+}
+
+nav a {
+	display: block;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+
+section {
+	padding-top: 120px;
+}
+
+.highlight {
+	color: #333;
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+}
+
+blockquote {
+	clear: both;
+	text-align: center;
+}
+.contact {
+  background: url(../images/background-8.jpg) no-repeat;
+  background-size: cover;
+}
+.contact-form {
+	width: 600px;
+	margin: 10px auto;
+	background: white;
+	padding: 20px;
+	border-radius: 4px;
+}
+.contact-from input,
+.contact-form textarea {
+	width: 100%
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.contact-form textarea {
+	height: 100px;
+}
+}
